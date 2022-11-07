@@ -91,7 +91,7 @@ module.exports = (m) => {
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
       if (!('groupmode' in setting)) setting.groupmode = false
-      if (!('sk_pack' in setting)) setting.sk_pack = 'Asuna Bot'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'asuna Bot'
       if (!('sk_author' in setting)) setting.sk_author = '@faaaarr__'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
