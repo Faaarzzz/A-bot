@@ -1,7 +1,7 @@
 // Owner number
-global.owner = '6282141544557'
+global.owner = '6285694954907'
 // Owner name
-global.owner_name = 'Customer Service'
+global.owner_name = 'maybe farz'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
@@ -24,11 +24,11 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Timezone (Default : Asia/Jakarta)
 global.timezone = 'Asia/Jakarta'
 // Bot version
-global.version = '2.2.1',
+global.version = '3.7.1',
 // Bot name
-global.botname = `© neoxr-bot v${global.version} (Public Bot)`
+global.botname = `© Λsuna-bot v${global.version} (Public Bot)`
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ғᴀʀᴢッ'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
