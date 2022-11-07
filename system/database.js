@@ -40,7 +40,7 @@ module.exports = (m) => {
          if (!('antilink' in group)) group.antilink = true
          if (!('antivirtex' in group)) group.antivirtex = true
          if (!('filter' in group)) group.filter = false
-         if (!('left' in group)) group.left = false
+         if (!('left' in group)) group.left = ture
          if (!('localonly' in group)) group.localonly = false
          if (!('mute' in group)) group.mute = false
          if (!('member' in group)) group.member = {}
@@ -91,7 +91,7 @@ module.exports = (m) => {
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
       if (!('groupmode' in setting)) setting.groupmode = false
-      if (!('sk_pack' in setting)) setting.sk_pack = 'Asuna-Bot'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'Asuna Bot'
       if (!('sk_author' in setting)) setting.sk_author = '@faaaarr__'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
@@ -103,7 +103,7 @@ module.exports = (m) => {
       if (!('owners' in setting)) setting.owners = ['6285694954907', '6285694954907']
       if (!('msg' in setting)) setting.msg = 'An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.3.0\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 2
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/55f179dde04ea8c829d57.jpg'
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/1958353b1a74a1d3b18c3.jpg'
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/CgS6dywWBR89YLHDchKBTr'
    } else {
       global.db.setting = {
@@ -125,7 +125,7 @@ module.exports = (m) => {
          owners: ['6285694954907', '6285694954907'],
          msg: 'An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.4.0\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.',
          menuStyle: 1,
-         cover: 'https://telegra.ph/file/55f179dde04ea8c829d57.jpg',
+         cover: 'https://telegra.ph/file/1958353b1a74a1d3b18c3.jpg',
          link: 'https://chat.whatsapp.com/CgS6dywWBR89YLHDchKBTr'
       }
    }
