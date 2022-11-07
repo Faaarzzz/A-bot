@@ -26,7 +26,7 @@ global.timezone = 'Asia/Jakarta'
 // Bot version
 global.version = '3.7.1',
 // Bot name
-global.botname = `© Λsuna-bot v${global.version} (Public Bot)`
+global.botname = `© asuna-bot v${global.version} (Public Bot)`
 // Footer text
 global.footer = 'sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ғᴀʀᴢッ'
 // Global status
