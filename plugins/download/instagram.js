@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['ig'],
+   usage: ['ig', 'instagram', 'igdl'],
    hidden: ['igdl'],
    use: 'link',
    category: 'downloader',
