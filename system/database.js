@@ -36,7 +36,7 @@ module.exports = (m) => {
       if (group) {
          if (!isNumber(group.activity)) group.activity = 0
          if (!('autoread' in group)) group.autoread = true
-         if (!('antidelete' in group)) group.antidelete = true
+         if (!('antidelete' in group)) group.antidelete = false 
          if (!('antilink' in group)) group.antilink = true
          if (!('antivirtex' in group)) group.antivirtex = true
          if (!('filter' in group)) group.filter = false
@@ -53,7 +53,7 @@ module.exports = (m) => {
          global.db.groups[m.chat] = {
             activity: 0,
             autoread: true,
-            antidelete: true,
+            antidelete: false,
             antilink: false,
             antivirtex: false,
             filter: false,
@@ -85,13 +85,13 @@ module.exports = (m) => {
 
    let setting = global.db.setting
    if (setting) {
-  	if (!('autodownload' in setting)) setting.autodownload = true
+  	if (!('autodownload' in setting)) setting.autodownload = false
   	if (!('debug' in setting)) setting.debug = false
       if (!('chatbot' in setting)) setting.chatbot = true
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
       if (!('groupmode' in setting)) setting.groupmode = false
-      if (!('sk_pack' in setting)) setting.sk_pack = 'asuna Bot'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'asuna bot'
       if (!('sk_author' in setting)) setting.sk_author = '@faaaarr__'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
@@ -107,14 +107,14 @@ module.exports = (m) => {
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/CgS6dywWBR89YLHDchKBTr'
    } else {
       global.db.setting = {
-         autodownload: true,
+         autodownload: false,
          chatbot: true,
          debug: false,
          error: [],
          pluginDisable: [],
          groupmode: false,
-         sk_pack: 'Sticker',
-         sk_author: '@neoxrs',
+         sk_pack: 'asuna bot',
+         sk_author: '@faaaarr__',
          self: false,
          mimic: [],
          multiprefix: true,
@@ -124,7 +124,7 @@ module.exports = (m) => {
          onlyprefix: '+',
          owners: ['6285694954907', '6285694954907'],
          msg: 'An automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.4.0\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.',
-         menuStyle: 1,
+         menuStyle: 2,
          cover: 'https://telegra.ph/file/1958353b1a74a1d3b18c3.jpg',
          link: 'https://chat.whatsapp.com/CgS6dywWBR89YLHDchKBTr'
       }
