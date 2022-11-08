@@ -32,9 +32,8 @@ exports.run = {
             uptime: Func.toTime(process.uptime() * 1000)
          }
          const system = global.db.setting
-         client.sendMessageModify(m.chat, statistic(stats, system), m, {
-            largeThumb: true
-         })
+client.reply(m.chat, statistic(stats, system), m)
+         
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
       }
