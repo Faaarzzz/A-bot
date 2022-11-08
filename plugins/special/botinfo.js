@@ -1,13 +1,13 @@
 exports.run = {
-   usage: ['tnc', 'script'],
-   hidden: ['sc'],
+   usage: ['tnc', 'igowner'],
+   hidden: ['infoig'],
    category: 'special',
    async: async (m, {
       client,
       args,
       command
    }) => {
-      if (command == 'script' || command == 'sc') return client.reply(m.chat, info(), m)
+      if (command == 'infoig' || command == 'igowner') return client.reply(m.chat, info(), m)
       if (command == 'tnc') return client.sendMessageModify(m.chat, tnc(), m, {
          largeThumb: true
       })
@@ -20,13 +20,9 @@ exports.run = {
 let info = () => {
    return `This bot was created and developed with the purpose of *learning*.
    
-1. Single Auth
-- https://github.com/neoxr/neoxr-bot
-
-2. Multi Auth
-- https://github.com/neoxr/neoxr-bot/tree/multi-auth
-
-65% of the data sent from this bot comes from Rest API: https://api.neoxr.my.id`
+ This bot was created and developed with the purpose of *learning*.
+   
+  *『 FOLLOW IG OWNER 』* : https://www.instagram.com/faaaarr__/`
 }
 
 const tnc = () => {
