@@ -19,9 +19,7 @@ exports.run = {
 
 let info = () => {
    return `This bot was created and developed with the purpose of *learning*.
-   
- This bot was created and developed with the purpose of *learning*.
-   
+    
   *『 FOLLOW IG OWNER 』* : https://www.instagram.com/faaaarr__/`
 }
 
