@@ -34,6 +34,8 @@ If you want to get from heroku, register first and do this steps :
 DATABASE_URL = 'postgres://nmxbabrmewzxmy:d9651df4c26df9d9fdc447be36cf32349ffc3acad641dd3fb72b2bd682ace017@ec2-63-34-180-86.eu-west-1.compute.amazonaws.com:5432/d9atreqoeau273g'
 ```
 
+## FOR REPLIT USER
+[![Run on Repl.it](https://repl.it/badge/github/Faaarzzz/A-bot)](https://repl.it/github/Faaarzzz/A-bot)
 #### 2. Railway
 
 Just like heroku must register first and do this steps :
